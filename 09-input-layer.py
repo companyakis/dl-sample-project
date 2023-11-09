@@ -6,3 +6,6 @@
 
 # Create an input layer
 input_layer = tf.keras.layers.Dense(4096, input_shape=(24,), activation="relu")
+
+# Add input layer to model object
+model.add(input_layer)
